@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="575" started-at="2016-05-02T17:03:41Z" finished-at="2016-05-02T17:03:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myPackage.shoppingTestRunner@38a30a0b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="575" started-at="2016-05-02T17:03:41Z" finished-at="2016-05-02T17:03:41Z">
+      <class name="myPackage.shoppingTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:myPackage.shoppingTestRunner@38a30a0b]" name="setUpClass" is-config="true" duration-ms="280" started-at="2016-05-02T22:33:41Z" finished-at="2016-05-02T22:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myPackage.shoppingTestRunner@38a30a0b]" name="feature" duration-ms="165" started-at="2016-05-02T22:33:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-05-02T22:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adding items to basket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:myPackage.shoppingTestRunner@38a30a0b]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2016-05-02T22:33:41Z" finished-at="2016-05-02T22:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- myPackage.shoppingTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
